@@ -17,8 +17,6 @@ import com.eaiftpHealthCheck.dto.ApplicationDetailDTO;
 import com.eaiftpHealthCheck.dto.DBCredentialDTO;
 import com.eaiftpHealthCheck.dto.SchedulerDetailDTO;
 import com.eaiftpHealthCheck.service.HealthCheckService;
-import com.itextpdf.text.log.SysoCounter;
-
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;

@@ -21,6 +21,7 @@ public class EaiftpHealthCheckApplication  {
 	     return new RestTemplate();
 	 }
 	
+	@SuppressWarnings("null")
 	@Bean
     public JdbcTemplate jdbcTemplate(DataSource dataSource) {
         return new JdbcTemplate(dataSource);

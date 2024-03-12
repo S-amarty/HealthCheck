@@ -6,9 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import com.eaiftpHealthCheck.dto.ApplicationDTO;
-import com.eaiftpHealthCheck.dto.ApplicationDetailDTO;
 
-@SuppressWarnings("rawtypes")
 @Repository
 
 public interface ApplicationDao extends CrudRepository <ApplicationDTO,Integer> {

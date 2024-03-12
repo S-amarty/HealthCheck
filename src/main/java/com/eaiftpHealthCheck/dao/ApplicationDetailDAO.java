@@ -1,7 +1,6 @@
 package com.eaiftpHealthCheck.dao;
 
 
-import com.eaiftpHealthCheck.dto.ApplicationDTO;
 import com.eaiftpHealthCheck.dto.ApplicationDetailDTO;
 import org.springframework.stereotype.Repository;
 import org.springframework.data.repository.CrudRepository;

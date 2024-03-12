@@ -1,7 +1,6 @@
 package com.eaiftpHealthCheck.service;
 
 import com.eaiftpHealthCheck.dto.ApplicationDetailDTO;
-import com.eaiftpHealthCheck.dto.DBCredentialDTO;
 import com.eaiftpHealthCheck.dto.SchedulerDetailDTO;
 import org.springframework.http.HttpStatus;
 

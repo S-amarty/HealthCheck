@@ -4,7 +4,6 @@ import com.eaiftpHealthCheck.dto.ApplicationDetailDTO;
 import com.eaiftpHealthCheck.dto.SchedulerDetailDTO;
 import com.eaiftpHealthCheck.service.HealthCheckService;
 import com.eaiftpHealthCheck.service.PDFGenerationService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -22,7 +21,6 @@ public class HealthCheckController {
     private final HealthCheckService healthCheckService;
     private final PDFGenerationService pdfGenerationService;
 
-    @Autowired
     public HealthCheckController(HealthCheckService healthCheckService, PDFGenerationService pdfGenerationService) {
         this.healthCheckService = healthCheckService;
         this.pdfGenerationService = pdfGenerationService;
@@ -47,12 +45,12 @@ public class HealthCheckController {
         return "healthCheck";
     }
 
+    @SuppressWarnings("null")
     @GetMapping("/downloadReport/{environmentType}")
     public ResponseEntity<byte[]> downloadReport(@PathVariable String environmentType) {
         try {
             List<SchedulerDetailDTO> schedulerDetails = healthCheckService.getAllSchedulerDetails();
             ByteArrayInputStream pdfBytes = pdfGenerationService.generatePDF(schedulerDetails, environmentType);
-            // Setting headers for the response
             return ResponseEntity.ok()
                     .header("Content-Disposition", "inline; filename=report.pdf")
                     .contentType(org.springframework.http.MediaType.APPLICATION_PDF)
