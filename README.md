@@ -1,6 +1,6 @@
-# Project Title
+# Health Check
 
-One Paragraph of project description goes here
+This web application checks the HTTPs Status of URL
 
 ## Getting Started
 expect maven wrapper
@@ -49,7 +49,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/nuuday/project/tags). 
 
-## Authors
+## Amar Khedkar
 
 * **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
