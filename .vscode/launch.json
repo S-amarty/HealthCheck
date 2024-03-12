@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-EaiftpHealthCheckApplication<eaiftpHealthCheck>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.eaiftpHealthCheck.EaiftpHealthCheckApplication",
+            "projectName": "eaiftpHealthCheck",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
