@@ -1,9 +1,9 @@
-package com.eaiftpHealthCheck.controller;
+package com.HealthCheck.controller;
 
-import com.eaiftpHealthCheck.dto.ApplicationDetailDTO;
-import com.eaiftpHealthCheck.dto.SchedulerDetailDTO;
-import com.eaiftpHealthCheck.service.HealthCheckService;
-import com.eaiftpHealthCheck.service.PDFGenerationService;
+import com.HealthCheck.dto.ApplicationDetailDTO;
+import com.HealthCheck.dto.SchedulerDetailDTO;
+import com.HealthCheck.service.HealthCheckService;
+import com.HealthCheck.service.PDFGenerationService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

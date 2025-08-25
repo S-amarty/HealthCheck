@@ -1,4 +1,4 @@
-package com.eaiftpHealthCheck.dto;
+package com.HealthCheck.dto;
 
 import jakarta.persistence.*;
 

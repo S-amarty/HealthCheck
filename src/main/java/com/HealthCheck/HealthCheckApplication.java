@@ -1,4 +1,4 @@
-package com.eaiftpHealthCheck;
+package com.HealthCheck;
 
 import javax.sql.DataSource;
 
