@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication(scanBasePackages={"com.eaiftpHealthCheck.controller","com.eaiftpHealthCheck.dto", "com.eaiftpHealthCheck.service","com.eaiftpHealthCheck.serviceImpl"})
 
-public class EaiftpHealthCheckApplication  {
+public class HealthCheckApplication  {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EaiftpHealthCheckApplication.class, args);
