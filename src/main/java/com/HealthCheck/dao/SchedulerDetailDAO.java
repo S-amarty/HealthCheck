@@ -2,7 +2,6 @@ package com.HealthCheck.dao;
 
 
 import com.HealthCheck.dto.SchedulerDetailDTO;
-
 import org.springframework.stereotype.Repository;
 import org.springframework.data.repository.CrudRepository;
 

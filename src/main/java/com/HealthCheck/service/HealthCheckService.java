@@ -1,7 +1,7 @@
-package com.eaiftpHealthCheck.service;
+package com.HealthCheck.service;
 
-import com.eaiftpHealthCheck.dto.ApplicationDetailDTO;
-import com.eaiftpHealthCheck.dto.SchedulerDetailDTO;
+import com.HealthCheck.dto.ApplicationDetailDTO;
+import com.HealthCheck.dto.SchedulerDetailDTO;
 import org.springframework.http.HttpStatus;
 
 import java.util.List;

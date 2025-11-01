@@ -1,7 +1,6 @@
-package com.eaiftpHealthCheck.service;
+package com.HealthCheck.service;
 
-import com.eaiftpHealthCheck.dto.SchedulerDetailDTO;
-
+import com.HealthCheck.dto.SchedulerDetailDTO;
 import java.util.List;
 import java.io.ByteArrayInputStream;
 

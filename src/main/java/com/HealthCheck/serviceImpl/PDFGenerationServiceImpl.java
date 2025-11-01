@@ -1,7 +1,7 @@
-package com.eaiftpHealthCheck.serviceImpl;
+package com.HealthCheck.serviceImpl;
 
-import com.eaiftpHealthCheck.dto.SchedulerDetailDTO;
-import com.eaiftpHealthCheck.service.PDFGenerationService;
+import com.HealthCheck.dto.SchedulerDetailDTO;
+import com.HealthCheck.service.PDFGenerationService;
 import com.itextpdf.text.*;
 import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;

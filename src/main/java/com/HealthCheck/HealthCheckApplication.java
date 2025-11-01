@@ -8,12 +8,13 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.client.RestTemplate;
 
-@SpringBootApplication(scanBasePackages={"com.eaiftpHealthCheck.controller","com.eaiftpHealthCheck.dto", "com.eaiftpHealthCheck.service","com.eaiftpHealthCheck.serviceImpl"})
+
+@SpringBootApplication(scanBasePackages={"com.HealthCheck.controller","com.HealthCheck.dto", "com.HealthCheck.service","com.HealthCheck.serviceImpl"})
 
 public class HealthCheckApplication  {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EaiftpHealthCheckApplication.class, args);
+		SpringApplication.run(HealthCheckApplication.class, args);
 	}
 
 	@Bean

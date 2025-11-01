@@ -1,4 +1,4 @@
-package com.eaiftpHealthCheck.serviceImpl;
+package com.HealthCheck.serviceImpl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -9,14 +9,14 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 
-import com.eaiftpHealthCheck.dao.ApplicationDao;
-import com.eaiftpHealthCheck.dao.ApplicationDetailDAO;
-import com.eaiftpHealthCheck.dao.SchedulerDetailDAO;
-import com.eaiftpHealthCheck.dto.ApplicationDTO;
-import com.eaiftpHealthCheck.dto.ApplicationDetailDTO;
-import com.eaiftpHealthCheck.dto.DBCredentialDTO;
-import com.eaiftpHealthCheck.dto.SchedulerDetailDTO;
-import com.eaiftpHealthCheck.service.HealthCheckService;
+import com.HealthCheck.dao.ApplicationDao;
+import com.HealthCheck.dao.ApplicationDetailDAO;
+import com.HealthCheck.dao.SchedulerDetailDAO;
+import com.HealthCheck.dto.ApplicationDTO;
+import com.HealthCheck.dto.ApplicationDetailDTO;
+import com.HealthCheck.dto.DBCredentialDTO;
+import com.HealthCheck.dto.SchedulerDetailDTO;
+import com.HealthCheck.service.HealthCheckService;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
